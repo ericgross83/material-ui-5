@@ -1,10 +1,10 @@
 import React from 'react';
-import {Paper} from "@mui/material";
+import {Grid, Paper} from "@mui/material";
 
 export default function TourCard() {
     return (
-        <div>
+        <Grid item xs={3}>
             <Paper elevation={3}>Hello</Paper>
-        </div>
+        </Grid>
     );
 };
